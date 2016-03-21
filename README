@@ -1,0 +1,36 @@
+/*
+   This code can be compiled and run ok.
+
+   Create an input file file.in.txt which consists of
+   five pairs of numbers and each line consists of two integers,
+   representing height (in centimeter) and mass (in kilogram)
+   for a family member of John.
+   The inputfile ends up with two zeroes.  
+
+   Read in file.in.txt and create a file file.out.txt.
+   For each line in file.in.txt, each line in file.out consists of
+   the calculated BMI value and its corresponding category.
+
+   In the program, I design a class which records
+   height and mass values as private data members.
+   To manipulate these data members, I provide
+   corresponding get and set functions.
+   I also provide a public member function for
+   returning the BMI value, and a public member function for
+   returning the category (as a string).
+
+   usage (how to run):
+     lab1  (then input n)
+
+   input file:
+     file.in.txt
+
+   output files:
+     file.out.txt
+
+   compile (how to compile):
+     g++ -o lab2 main.cpp BMI.h BMI.cpp
+
+   coded by Chia-Lin Su, ID: H34041149, email: su2952@gmail.com
+   date: 2016.03.21
+*/

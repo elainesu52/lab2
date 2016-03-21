@@ -1,5 +1,5 @@
 #include <iostream>
-#include "Class BMI.h"
+#include "BMI.h"
 #include <fstream>
 #include <string>
 #include <cstdlib>

@@ -1,4 +1,4 @@
-#include "Class BMI.h"
+#include "BMI.h"
 #include <string>
 
 using namespace std;
